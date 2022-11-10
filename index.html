@@ -86,22 +86,87 @@
           
           
             <!-- Nav / Tab Section -->
-            <div class="d-flex justify-content-center">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <!--Photo Grid-->
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i></button>
-              </li>
-                <!--Individual Photo-->
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-square-fill"></i></button>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-            </div>
+            <div class="nav justify-content-center">
+              <nav>
+                <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-grid-tab" data-bs-toggle="tab" data-bs-target="#nav-grid" type="button" role="tab" aria-controls="nav-grid" aria-selected="true"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+                  <button class="nav-link" id="nav-square-tab" data-bs-toggle="tab" data-bs-target="#nav-square" type="button" role="tab" aria-controls="nav-square" aria-selected="false"><i class="bi bi-square-fill"></i></button>
+                </div>
+              </nav>
+
+              <div class="tab-content" id="nav-tabContent">
+                
+                <!--Grid Posts Section-->
+                <div class="tab-pane fade active show" id="nav-grid" role="tabpanel" aria-labelledby="nav-grid-tab">
+                  <div class="card-group">
+                    <div class="card m-2" style="width: 18rem;">
+                      <img src="https://picsum.photos/400?random=1" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card m-2" style="width: 18rem;">
+                      <img src="https://picsum.photos/400?random=2" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card m-2" style="width: 18rem;">
+                      <img src="https://picsum.photos/400?random=3" class="card-img-top" alt="...">
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Square/Single Posts Section-->
+                <div class="tab-pane fade" id="nav-square" role="tabpanel" aria-labelledby="nav-square-tab">
+                  <div class="card my-4 mx-auto" style="width: 35rem;">
+                    <div class="card-header d-flex justify-content-between bg-white">
+                      <p class="fs-5"><i class="bi bi-person-fill"></i> Simon Bolivar</p>
+                    </div>
+                    <img src="https://picsum.photos/400?random=4" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="bi bi-heart-fill text-danger"></i> <strong> 3.000 likes</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nesciunt cum consectetur, commodi odit corporis laborum at, vitae beatae exercitationem velit omnis facilis neque nobis culpa temporibus ducimus quidem excepturi.</p>
+                        <p class="fs-5 text-muted">2 days ago</p>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card my-4 mx-auto" style="width: 35rem;">
+                    <div class="card-header d-flex justify-content-between bg-white">
+                      <p class="fs-5"><i class="bi bi-person-fill"></i> Simon Bolivar</p>
+                    </div>
+                    <img src="https://picsum.photos/400?random=5" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="bi bi-heart-fill text-danger"></i> <strong> 3.000 likes</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nesciunt cum consectetur, commodi odit corporis laborum at, vitae beatae exercitationem velit omnis facilis neque nobis culpa temporibus ducimus quidem excepturi.</p>
+                        <p class="fs-5 text-muted">2 days ago</p>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card my-4 mx-auto" style="width: 35rem;">
+                    <div class="card-header d-flex justify-content-between bg-white">
+                      <p class="fs-5"><i class="bi bi-person-fill"></i> Simon Bolivar</p>
+                    </div>
+                    <img src="https://picsum.photos/400?random=6" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="bi bi-heart-fill text-danger"></i> <strong> 3.000 likes</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nesciunt cum consectetur, commodi odit corporis laborum at, vitae beatae exercitationem velit omnis facilis neque nobis culpa temporibus ducimus quidem excepturi.</p>
+                        <p class="fs-5 text-muted">2 days ago</p>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card my-4 mx-auto" style="width: 35rem;">
+                    <div class="card-header d-flex justify-content-between bg-white">
+                      <p class="fs-5"><i class="bi bi-person-fill"></i> Simon Bolivar</p>
+                    </div>
+                    <img src="https://picsum.photos/400?random=7" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="bi bi-heart-fill text-danger"></i> <strong> 3.000 likes</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nesciunt cum consectetur, commodi odit corporis laborum at, vitae beatae exercitationem velit omnis facilis neque nobis culpa temporibus ducimus quidem excepturi.</p>
+                        <p class="fs-5 text-muted">2 days ago</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
         
